@@ -16,7 +16,7 @@ public class Home {
 	public Home(WebDriver driver)// Constructor
 	{
 		this.driver = driver;// assign the local driver variable with foreign driver
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver, this); //initialise the elements
 	}
 
 //	WebELement signIN=driver.findElement(By.Id("nav-link-accountList")).isDisplayed();
